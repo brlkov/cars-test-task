@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 15px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 20px;
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .sort {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+}

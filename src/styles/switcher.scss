@@ -1,0 +1,38 @@
+@mixin switcher__btn {
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 7px;
+}
+
+
+.switcher {
+    width: 242px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px;
+    background: #F3F4F6;
+    border-radius: 7px;
+
+    .switcher__year {
+        @include switcher__btn;
+        width: 160px;
+    }
+
+    .switcher__price {
+        @include switcher__btn;
+        width: 80px;
+    }
+
+}
+
+._active {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
